@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dr. Smith's Running Journey</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+        }
+        header {
+            background-color: #4CAF50;
+            color: white;
+            padding: 1rem 0;
+            text-align: center;
+        }
+        nav {
+            background: #333;
+            color: white;
+            padding: 1rem;
+            text-align: center;
+        }
+        nav a {
+            color: white;
+            margin: 0 1rem;
+            text-decoration: none;
+        }
+        section {
+            padding: 2rem;
+            margin: 2rem 1rem;
+            background: white;
+            border-radius: 5px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+        footer {
+            text-align: center;
+            padding: 1rem;
+            background: #333;
+            color: white;
+            position: fixed;
+            width: 100%;
+            bottom: 0;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Dr. Smith's Running Journey</h1>
+    </header>
+    <nav>
+        <a href="#home">Home</a>
+        <a href="#about">About</a>
+        <a href="#contact">Contact</a>
+    </nav>
+    <section id="home">
+        <h2>Welcome</h2>
+        <p>Welcome to the running journey of Dr. Smith! As a dedicated doctor and avid runner, Dr. Smith combines the art of healing with the passion for running. Follow along to discover tips, insights, and stories from his running adventures.</p>
+    </section>
+    <section id="about">
+        <h2>About Dr. Smith</h2>
+        <p>Dr. John Smith is a board-certified physician with over 20 years of experience in internal medicine. Beyond his medical practice, Dr. Smith has a passion for running. He has completed numerous marathons and enjoys sharing the benefits of running for both physical and mental health.</p>
+        <h3>Running Achievements</h3>
+        <ul>
+            <li>Completed 10+ marathons</li>
+            <li>Personal best marathon time: 3:45:12</li>
+            <li>Regularly participates in local running clubs</li>
+        </ul>
+    </section>
+    <section id="contact">
+        <h2>Contact Dr. Smith</h2>
+        <p>If you have any questions or would like to connect with Dr. Smith, feel free to reach out via the contact form below.</p>
+        <form action="#" method="post">
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" required><br><br>
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required><br><br>
+            <label for="message">Message:</label><br>
+            <textarea id="message" name="message" rows="5" required></textarea><br><br>
+            <button type="submit">Send</button>
+        </form>
+    </section>
+    <footer>
+        <p>&copy; 2024 Dr. John Smith. All rights reserved.</p>
+    </footer>
+</body>
+</html>
